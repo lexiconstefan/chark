@@ -1,0 +1,88 @@
+﻿body{
+    font-family:'Open Sans',sans-serif;
+    background:url(../images/bromolla_bg.jpg);
+    font-size:16px;
+    
+}
+html{
+    font-size:68.5%;
+}
+.img-responsive{
+    margin: 0px auto;
+}
+ .page{
+    margin-top:10px;
+}
+ .page h3{
+     display:none;
+    
+ }
+ ul{
+     list-style:none;
+ }
+
+@media (min-width: 1020px) {
+    .navbar{
+        width:1020px;
+        margin:0 auto;
+    }
+}
+.navbar-chark-top{
+    visibility:hidden;
+    display:none;
+    
+   
+}
+.navbar{
+    margin-top:-5px;
+    margin-bottom:0;
+}
+@media (max-width: 767px) {
+    .navbar-chark-top{
+       visibility:visible;
+       display:block;
+    }
+    .navbar-chark-middle{
+        visibility:hidden;
+    }
+    .page{
+        margin-top:0;
+        padding:0 5%;
+    }
+    .page h3{
+    display:block;
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-size: 1.5em;
+	line-height: 2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Orienta', sans-serif;
+	letter-spacing: 1px;
+    }
+    .page h4{
+        	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+    }
+    .page h5{
+             	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+    font-style:italic;
+    }
+}
+
+
+
+
+
+
+
+
