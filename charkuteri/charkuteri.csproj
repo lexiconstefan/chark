@@ -94,6 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\site2.css" />
+    <Content Include="html\index2.html" />
+    <Content Include="html\login.html" />
+    <Content Include="images\bromolla_bg_tall.jpg" />
+    <Content Include="images\bromolla_footer.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
